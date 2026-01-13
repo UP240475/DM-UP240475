@@ -5,15 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: lightblue;">
     <h1>Patricio Alejandro Romo Romero</h1>
     <div>
         <h2>Mi primer trabajo en HTML</h2>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus adipisci tempora aliquid, ullam temporibus dicta incidunt rerum velit nihil iste quam natus ut nobis id blanditiis delectus voluptatum neque nulla?</p>
-        
+    <HR></HR>
 
-    <P>
-    </P>
+    <form action="Formulario">
+        <p>Sirve para almacenar datos invisibles dentro de un formulario</p>
+            <label for="nombre">Nombre</label>
+        <input type="text">
+            <BR></BR>
+        <label for="Apellido">Apellido</label>
+        <input type="text">
+            <BR></BR>
+        <input type="hidden" name="usuario_id" value="01">
+        <input type="submit" value="Enviar">
+        <br>
+        <br>
+        <input type="color" value="#ffffff" onchange="document.body.style.backgroundColor = this.value">
+        
+    </form>
+
+
+
+
 </body>
 </html>
